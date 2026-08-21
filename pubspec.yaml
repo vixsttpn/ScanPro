@@ -1,49 +1,20 @@
-name: scanpro
-description: "The Last Scanner You Will Ever Need. 100% FREE, NO ADS, NO WATERMARK, OFFLINE."
+﻿name: scanpro
+description: ScanPro - Secure System Scanner with EULA
 publish_to: 'none'
 version: 1.0.0+1
 environment:
-  sdk: ">=3.4.0 <4.0.0"
+  sdk: ">=3.2.0 <4.0.0"
   flutter: ">=3.22.0"
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc: ^8.1.6
-  camera: ^0.10.5+9
-  mobile_scanner: ^5.2.3
-  google_mlkit_text_recognition: ^0.13.1
-  edge_detection: ^1.0.7
-  opencv_dart: ^1.5.1
-  image: ^4.1.7
-  pdf: ^3.10.8
-  printing: ^5.11.1
-  hive: ^2.2.3
-  hive_flutter: ^1.1.0
-  path_provider: ^2.1.2
-  share_plus: ^8.0.2
-  permission_handler: ^11.3.1
-  flutter_contacts: ^1.1.9+2
-  wifi_iot: ^0.3.33
-  qr_flutter: ^4.1.0
-  path: ^1.9.0
-  image_picker: ^1.1.2
-  flutter_svg: ^2.0.10+1
-  local_auth: ^2.1.8
-  archive: ^3.6.1
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.3
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.3
-  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0
 flutter:
-  uses-material-design: false
+  uses-material-design: true
   assets:
-    - assets/icon/
-    - assets/icons/ui/
-flutter_launcher_icons:
-  android: "launcher_icon"
-  ios: false
-  image_path: "assets/icon/app_icon_foreground.png"
-  adaptive_icon_background: "#000000"
-  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"
-  background_color: "#000000"
+    - assets/
